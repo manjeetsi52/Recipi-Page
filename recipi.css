@@ -1,0 +1,273 @@
+/* @font-face {
+    font-family: 'Oswald';
+    src: url(.webdev/projectes/recipi_page/recipe-page-main/assets/fonts/outfit/static/Outfit-Black.ttf) format('ttf'),
+    src: url(.webdev/projectes/recipi_page/recipe-page-main/assets/fonts/outfit/static/Outfit-Bold.ttf) format('ttf'),
+    src: url(.webdev/projectes/recipi_page/recipe-page-main/assets/fonts/outfit/static/Outfit-ExtraBold.ttf) format('ttf'),
+    src: url(.webdev/projectes/recipi_page/recipe-page-main/assets/fonts/outfit/static/Outfit-ExtraLight.ttf) format('ttf'),
+    src: url(.webdev/projectes/recipi_page/recipe-page-main/assets/fonts/outfit/static/Outfit-Light.ttf) format('ttf'),
+    src: url(.webdev/projectes/recipi_page/recipe-page-main/assets/fonts/outfit/static/Outfit-Medium.ttf) format('ttf'),
+    src: url(.webdev/projectes/recipi_page/recipe-page-main/assets/fonts/outfit/static/Outfit-Regular.ttf) format('ttf'),
+    src: url(.webdev/projectes/recipi_page/recipe-page-main/assets/fonts/outfit/static/Outfit-SemiBold.ttf) format('ttf'),
+    src: url(.webdev/projectes/recipi_page/recipe-page-main/assets/fonts/outfit/static/Outfit-Thin.ttf) format('ttf'); 
+}  this is not correct*/ 
+/* @font-face {
+    font-family: 'Outfit';
+    src: url('/webdev/projectes/recipi_page/recipe-page-main/assets/fonts/outfit/static/Outfit-Black.ttf') format('truetype');
+    font-weight: 900;
+} */
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('/webdev/projectes/recipi_page/recipe-page-main/assets/fonts/outfit/static/Outfit-Bold.ttf') format('truetype');
+    font-weight: 100;
+}
+
+/* @font-face {
+    font-family: 'Outfit';
+    src: url('/webdev/projectes/recipi_page/recipe-page-main/assets/fonts/outfit/static/Outfit-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+} */
+
+/* @font-face {
+    font-family: 'Outfit';
+    src: url('/webdev/projectes/recipi_page/recipe-page-main/assets/fonts/outfit/static/Outfit-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+} */
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('/webdev/projectes/recipi_page/recipe-page-main/assets/fonts/outfit/static/Outfit-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+/* @font-face {
+    font-family: 'Outfit';
+    src: url('/webdev/projectes/recipi_page/recipe-page-main/assets/fonts/outfit/static/Outfit-Medium.ttf') format('truetype');
+    font-weight: 500;
+} */
+/* 
+@font-face {
+    font-family: 'Outfit';
+    src: url('/webdev/projectes/recipi_page/recipe-page-main/assets/fonts/outfit/static/Outfit-Regular.ttf') format('truetype');
+    font-weight: 400;
+} */
+
+/* @font-face {
+    font-family: 'Outfit';
+    src: url('/webdev/projectes/recipi_page/recipe-page-main/assets/fonts/outfit/static/Outfit-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+} */
+/* 
+@font-face {
+    font-family: 'Outfit';
+    src: url('/webdev/projectes/recipi_page/recipe-page-main/assets/fonts/outfit/static/Outfit-Thin.ttf') format('truetype');
+    font-weight: 100;
+} */
+@font-face {
+    font-family: 'Young-serif' ;
+    src: url(recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf) format('truetype');
+    font-weight: 100;
+}
+body{
+    font-family: 'Young-serif','Outfit', sans-serif;
+    font-weight: 100;
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    
+}
+.container{
+  width: 35%;
+  height: 100%;
+  background-color:white;
+  border: 1px solid white; 
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+.image{
+    width: 100%;
+    height: 30vh;
+    object-fit: contain;
+}
+#img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+ h3{
+    color: hsl(332, 51%, 32%);
+}
+h2{
+   color:  hsl(14, 45%, 36%);
+   font-weight: 100;
+}
+p , ul , ol , table {
+    font-size: 12px;
+    font-weight: 100;
+    color: rgb(94, 76, 76);
+}
+.preperation_time{
+    background-color: hsl(295, 100%, 98%);
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.ingredients{
+    border-bottom: 2px solid rgb(231, 230, 230);
+    padding-bottom: 10px;
+}
+#ptime li{
+   list-style: inside;
+   padding-left: 2px;
+}
+ul{
+    padding-left: 15px;
+}
+ul li{
+    list-style: square;
+    margin-bottom: 7px;
+    padding-left: 10px;
+}
+li::marker{
+    color:  hsl(14, 45%, 36%);
+}
+ol li{
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+ol{
+    padding-left: 15px;
+}
+
+.instructions{
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(231, 230, 230);
+}
+.mytable{
+    width: 100%;
+    border-collapse: collapse;
+}
+.mytable .styled-row{
+    border-bottom: 1px solid rgb(161, 156, 156);
+}
+.mytable td{
+    padding: 10px;
+}   
+.mytable td:nth-child(2)
+{
+    color:  hsl(14, 45%, 36%);
+}
+
+@media only screen and (max-width: 600px) {
+    @font-face {
+        font-family: 'Outfit';
+        src: url('/webdev/projectes/recipi_page/recipe-page-main/assets/fonts/outfit/static/Outfit-Bold.ttf') format('truetype');
+        font-weight: 100;
+    }
+    
+    @font-face {
+        font-family: 'Outfit';
+        src: url('/webdev/projectes/recipi_page/recipe-page-main/assets/fonts/outfit/static/Outfit-Light.ttf') format('truetype');
+        font-weight: 300;
+    }
+    
+ 
+    @font-face {
+        font-family: 'Young-serif' ;
+        src: url(recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf) format('truetype');
+        font-weight: 100;
+    }
+    body{
+        font-family: 'Young-serif','Outfit', sans-serif;
+        font-weight: 100;
+        background-color: hsl(30, 54%, 90%);
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        
+    }
+    .container{
+      width: 100%;
+      height: 100%;
+      background-color:rgb(255, 254, 254);
+    }
+    .image{
+        width: 100%;
+        height: 30vh;
+        object-fit: contain;
+    }
+    #img{
+        width: 100%;
+        height: 100%;
+    }
+     h3{
+        color: hsl(332, 51%, 32%);
+    }
+    h2{
+       color:  hsl(14, 45%, 36%);
+       font-weight: 100;
+    }
+    p , ul , ol , table {
+        font-size: 12px;
+        font-weight: 100;
+        color: rgb(94, 76, 76);
+    }
+    .preperation_time{
+        background-color: hsl(295, 100%, 98%);
+        padding: 10px;
+        font-size: 14px;
+        border-radius: 10px;
+    }
+    
+    .ingredients{
+        border-bottom: 2px solid rgb(231, 230, 230);
+        padding-bottom: 10px;
+    }
+    #ptime li{
+       list-style: inside;
+       padding-left: 2px;
+    }
+    ul{
+        padding-left: 15px;
+    }
+    ul li{
+        list-style: square;
+        margin-bottom: 7px;
+        padding-left: 10px;
+    }
+    li::marker{
+        color:  hsl(14, 45%, 36%);
+    }
+    ol li{
+        margin-bottom: 10px;
+        padding-left: 10px;
+    }
+    ol{
+        padding-left: 15px;
+    }
+    
+    .instructions{
+        padding-bottom: 10px;
+        border-bottom: 2px solid rgb(231, 230, 230);
+    }
+    .mytable{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    .mytable .styled-row{
+        border-bottom: 1px solid rgb(161, 156, 156);
+    }
+    .mytable td{
+        padding: 10px;
+    }   
+    .mytable td:nth-child(2)
+    {
+        color:  hsl(14, 45%, 36%);
+    }
+    
+}
+
